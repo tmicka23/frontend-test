@@ -5,7 +5,7 @@
 Create a static HTML page that looks like this famous one:
 ![alt text](./resources/google-homepage.png)
 
-You are free to use whatever you want. You can find the logo here [test-1/google.png](test-1/google.png)
+You are free to use whatever you want. You can find the logo here [test1/google.png](test1/google.png)
 
 
 ## Test 2
