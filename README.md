@@ -8,13 +8,13 @@ Create a static HTML page that looks like this famous one:
 You are free to use whatever you want. You can find the logo here [test-1/google.png](test-1/google.png)
 
 
-## Test 2 
+## Test 2
 
 Create a web page that search from [Wikipedia API](https://en.wikipedia.org/w/api.php?action=help&modules=opensearch) to return a list of suggestions from a search input.
 It should be something like this:
 ![alt text](./resources/wikipedia-autocomplete.png)
 
-Use the technology you want (jQuery, ReqctJS, AngularJs, VueJS, ...), do the UI you want.
+Use the technology you want (jQuery, ReactJS, AngularJs, VueJS, ...), do the UI you want.
 
 
 ## Test 3
