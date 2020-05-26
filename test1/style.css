@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #737373;
+}
+
+/* create navbar wrapper on top of the page */
+.header-nav {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* place nav-links wrapper to right of navbar */
+
+.header-nav-links {
+  list-style: none;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* place nav-item to left of nav-links wrapper */
+.header-nav-item {
+  float: left;
+}
+
+.header-nav-item a {
+  text-decoration: none;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.header-nav-apps {
+  color: #737373;
+}
+
+.header-nav-button {
+  background-color: #065fd4;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 2px;
+  transition-duration: 0.3s;
+}
+
+.header-nav-button:hover {
+  background-color: #5289d0;
+}
+
+/* create body wrapper with centred content */
+
+.main {
+  margin-top: 8%;
+  padding: 2rem;
+}
+
+.main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92px;
+  width: 272px;
+}
+
+.main-search {
+  font-family: FontAwesome, "Roboto";
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #f1f3f4;
+  transition-duration: 0.2s;
+}
+
+.main-search:hover {
+  background-color: #d3d1d4;
+  transition-duration: 0.2s;
+}
+
+.main-search:focus {
+  background-color: #d3d1d4;
+  border-width: 0;
+  border-color: unset;
+  text-align: left;
+  text-indent: 2rem;
+  font-weight: 400;
+  font-size: 16px;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 2rem;
+}
+/* place shortcuts inline */
+
+.main-shortcuts {
+  width: 60%;
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-shortcut-item {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  color: #737373;
+  background-color: #f1f3f4;
+  padding: 2rem;
+  border-radius: 50%;
+  transition-duration: 0.3s;
+}
+
+.main-shortcut-item:hover {
+  background-color: #737373;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-shortcut-item {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .main-search {
+    width: 320px;
+  }
+}

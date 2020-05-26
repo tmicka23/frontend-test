@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Gooogle</title>
+
+    <!-- CSS -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicons.png" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav-links">
+          <li class="header-nav-item">
+            <a href="#Apps" class="header-nav-apps"
+              ><i class="material-icons">apps</i></a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a href="#Connexion" class="header-nav-button">Connexion</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- body -->
+    <div class="main">
+      <!-- logo -->
+      <img src="google.png" alt="logo de Google" class="main-img" />
+      <!-- search input -->
+      <input
+        type="text"
+        placeholder="Effectuez une recherche sur Google... "
+        onfocus="this.placeholder= ' '"
+        onblur="this.placeholder= 'Effectuez une recherche sur Google ou saisissez une URL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#xf130;'"
+        class="main-search"
+      />
+      <!-- recent search shortcuts -->
+      <div class="main-shortcuts">
+        <a href="#Github" class="main-shortcut-item"
+          ><i class="fa fa-github fa-2x"></i
+        ></a>
+        <a href="#Dribble" class="main-shortcut-item"
+          ><i class="fa fa-dribbble fa-2x"></i
+        ></a>
+        <a href="#Instagram" class="main-shortcut-item"
+          ><i class="fa fa-instagram fa-2x"></i
+        ></a>
+        <a href="#Facebook" class="main-shortcut-item"
+          ><i class="fa fa-facebook fa-2x"></i
+        ></a>
+        <a href="#Twitter" class="main-shortcut-item"
+          ><i class="fa fa-twitter fa-2x"></i
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
